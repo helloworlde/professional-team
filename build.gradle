@@ -22,6 +22,7 @@ dependencies {
 
 intellij {
     version '201.6487-EAP-CANDIDATE-SNAPSHOT'
+    updateSinceUntilBuild false
 }
 
 patchPluginXml {

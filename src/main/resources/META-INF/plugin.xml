@@ -9,8 +9,6 @@
 
     <depends>com.intellij.modules.platform</depends>
 
-    <idea-version until-build="193." since-build="192.*"/>
-
     <application-components>
         <component>
             <implementation-class>io.github.helloworlde.proteam.ProTeamApplicationComponent</implementation-class>
