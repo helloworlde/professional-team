@@ -1,0 +1,19 @@
+<idea-plugin>
+    <id>io.github.helloworlde.proteam</id>
+    <name>专业团队</name>
+    <vendor email="hellowoodes@gmail.com">HelloWoodes</vendor>
+
+    <description><![CDATA[
+    专业团队，放心！
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <idea-version until-build="193." since-build="192.*"/>
+
+    <application-components>
+        <component>
+            <implementation-class>io.github.helloworlde.proteam.ProTeamApplicationComponent</implementation-class>
+        </component>
+    </application-components>
+</idea-plugin>
